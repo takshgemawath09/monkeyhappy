@@ -96,7 +96,7 @@ if( frameCount % 140 === 0) {
    var  obstacle = createSprite(400,370,10,40);
     obstacle.velocityX = -2; 
     
-    obstacle.addImage=obstacleImage;
+    obstacle.addImage(obstacleImage);
     obstacleGroup.add(obstacle);
     
   }
