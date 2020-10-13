@@ -97,6 +97,7 @@ if( frameCount % 140 === 0) {
     obstacle.velocityX = -2; 
     
     obstacle.addImage(obstacleImage);
+  obstacle.scale=0.2;
     obstacleGroup.add(obstacle);
     
   }
